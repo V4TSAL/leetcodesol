@@ -14,5 +14,6 @@ class Solution:
                 n=n.next
             else:
                 return True
+                break
         return False
             
