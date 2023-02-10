@@ -3,14 +3,23 @@ class Solution:
         """
         Do not return anything, modify nums in-place instead.
         """
-        i=0
         c=0
-        while i<=len(nums)-1:
+        d=c+1
+        temp=0
+        while c<len(nums)-1:
             if nums[c]==0:
-                nums.remove(0)
-                nums.append(0)
-                i=i+1
-            else:
-                i=i+1
+                while d<len(nums):
+                    if nums[d]!=0:
+                        nums[c]=temp
+                        nums[c]=nums[d]
+                        nums[d]=temp
+                        break
+                    else:
+                        d=d+1
                 c=c+1
-        return nums
+                d=c+1
+            else:
+                c=c+1
+                d=c+1
+            
+                        
