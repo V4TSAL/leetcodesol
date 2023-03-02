@@ -6,6 +6,7 @@ class Solution:
         meow1=[]
         meow2=[]
         vat=[]
+        #FOR COUNTING THE FREQUENCY OF ELEMENTS
         while c<l:
             a=chars[c]
             j=0
@@ -17,8 +18,9 @@ class Solution:
                     break
             vat.append(a)
             vat.append(str(j))
-            meow2.append(vat)
+            meow2.append(vat) #STORES THE FREQUENCIES
             vat=[]
+        #TO MODIFY THE INPUT ARRAY
         xyz=0
         dd=0
         kk=0
