@@ -19,31 +19,6 @@ class Solution:
             vat.append(str(j))
             meow2.append(vat)
             vat=[]
-        print(meow2)
-        # for i in range(l):
-        #     c=0
-        #     # if chars[i] not in meow1:
-        #     meow1.append(chars[i])
-        #     for j in range(i,l):
-        #         if chars[i]==chars[j]:
-        #             c=c+1
-        #         else:
-        #             break
-        #     vat.append(chars[i])
-        #     vat.append(str(c))
-        #     meow2.append(vat)
-        #     vat=[]
-        # print(meow2)
-        
-        # for i in range(len(set(chars))*2):
-        #     chars[i]=meow2[i][0]
-        #     c=0
-        #     for j in range(i+1,len(meow2[i][1])+i):
-        #         sh=meow2[i][0]
-        #         chars[j]=sh[c]
-        #         c=c+1
-        # print(chars)
-        # *********************************
         xyz=0
         dd=0
         kk=0
