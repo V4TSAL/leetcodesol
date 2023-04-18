@@ -11,7 +11,7 @@ class Solution:
             ans=ans+word2[j]
             j=j+1
         if a<b:
-            ans=ans+word2[min(a,b):]
+            ans=ans+word2[a:]
         if a>b:
-            ans=ans+word1[min(a,b):]
+            ans=ans+word1[b:]
         return ans
